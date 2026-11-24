@@ -1,21 +1,52 @@
 import os
+import json
+import uuid
+from pathlib import Path
+
 import streamlit as st
 from dotenv import load_dotenv
 from groq import Groq
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
-import json 
+from qdrant_client.models import VectorParams, Distance, PointStruct
+
+load_dotenv()
 
 with open("titles.json", encoding="utf-8") as f:
     titles = json.load(f)
 
-load_dotenv()
+
+def build_index(client, model):
+    client.create_collection(
+        collection_name="youtube_chunks",
+        vectors_config=VectorParams(size=384, distance=Distance.COSINE),
+    )
+
+    for path in Path("chunks").glob("*.json"):
+        with open(path, encoding="utf-8") as f:
+            chunks = json.load(f)
+
+        embeddings = model.encode([c["text"] for c in chunks])
+
+        points = [
+            PointStruct(
+                id=str(uuid.uuid5(uuid.NAMESPACE_URL, f"{c['video_id']}-{i}")),
+                vector=embeddings[i].tolist(),
+                payload=c,
+            )
+            for i, c in enumerate(chunks)
+        ]
+        client.upsert(collection_name="youtube_chunks", points=points)
 
 
-@st.cache_resource
+@st.cache_resource(show_spinner="Setting up the search index (first start only)...")
 def load_resources():
     model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
     client = QdrantClient(path="qdrant_data")
+
+    if not client.collection_exists("youtube_chunks"):
+        build_index(client, model)
+
     groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     return model, client, groq_client
 
@@ -79,6 +110,10 @@ Answer in the same language as the Question above:"""
     st.write(response.choices[0].message.content)
 
     top = results[0].payload
-    title = titles.get(top["video_id"], top["video_id"])
-    url = f"https://www.youtube.com/watch?v={top['video_id']}"
-    st.video(url, start_time=int(top["start"]))
+    video_id = top["video_id"]
+    start = int(top["start"])
+    title = titles.get(video_id, video_id)
+
+    st.subheader(title)
+    st.caption(f"Starts at {start // 60:02d}:{start % 60:02d}")
+    st.video(f"https://www.youtube.com/watch?v={video_id}", start_time=start)
