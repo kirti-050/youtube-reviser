@@ -4,7 +4,7 @@ Ask a question about a YouTube playlist and get an answer with citations, plus t
 
 I built this because I couldn't remember which video in a long DSA playlist explained a given topic. [Add one sentence in your own words.]
 
-**Live demo:** [Youtube Reviser][<https://youtube-reviser.streamlit.app/>]
+**Live demo:** <https://youtube-reviser.streamlit.app/>
 
 ![App screenshot](screenshot.png)
 
