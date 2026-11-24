@@ -1,0 +1,68 @@
+[
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "ये मेरे चैनल का सबसे important वीडियो है अभी तक, अभी तक अगर कुछ नहीं देखे हो, DSA, patterns नहीं देखे हो, basics नहीं देखे हो, कोई बात नहीं, ये miss मत करना, ये देख लेना, जीवन थोड़ा सुधर जाएगा, अभी तक मेरा भी गलती है, कि जो हम पढ़ा रहे थे, हमको ल ये इसका आदा खेल time complexity में है दो चीज़ें है कौन सा algorithm कब यूज़ करना है ये एक तो आपको पता चलता है pattern से जो कि हम लोग सीख रहे हैं अगर pattern से नहीं पता चलता है ना तो time complexity या तो program का जो input है उसको देखके भी पता चल जाता है hint मिल जाता है कि कौन सा algorithm नहीं लगेगा और कौन सा लग सकता है इसके लिए सबसे पहले शुरू करते हैं कहानी के तरह समझाएंगे बहुत simple में समझ में आ जाएगा सबसे पहले आ जाओ elite code पे ठीक है",
+    "start": 0.0,
+    "end": 60.04
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "हम लोग elite code पे program submit करते हैं या तो gfg पर करते हैं ऐसा ही कोई website होता है वहाँ करते हैं कहीं भी कर सकते हैं online में अब देखो सबसे पहला बात समझो कि simple operation क्या होता है simple operation मतलब जो की बहुत simple है करना for example a is equal to 10 ये एक simple operation है print hello ये एक simple operation है a is equal to 10 plus 2 a is equal to b plus c ये सारा ये सारा simple operation है, simple operation का क्या मतलब है, जिसको करने में, चलो सीधे बाचा है मान के चलो, एक time लगता है, एक unit time लगता है, एक unit time लगता है, ये unit time हो सकता है, एक ms हो, microsecond हो, millisecond हो, एक microsecond हो, एक second हो, लेकिन एक लगता है, आप समझ के चलिए कि constant time है, तुरंत हो जाएगा ऐसे, � चुटकी बजाते ही ये काम पूरा हो जाएगा, इसको कहते हैं simple operation, कोई भी lead code जैसा और या तो gfg जैसा platform,",
+    "start": 60.04,
+    "end": 120.06
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "जब आपको बोलता है न कि program submit कीजिए, तो कभी-कभी देखते होंगे कि अगर आप घटिया program लिखेंगे, तो time limit exceed आता है, time limit exceeded, ये क्यों आता है, या तो ये lead code को पत होता है कि 1 second में आपका प्रोग्राम चलना चाहिए, ऐसा होगा, या तो number of operations, number of operations, permit करता होगा, इसका क्या मतलब है, number of simple operation अगर lead code limit कर दे, कि आप 100 ही operation चला सकते हैं, तो अगर आप 101 operation चलाने को कोशिश करेंगे, तो आपको time-limit exceeded आ जाएगा, या फिर आपका program को अगर 1 second लगना है, आप 1 second 1.0001 second मिलेंगे, तो आपका time-limit exceeded आ जाएगा, यही 2 तरीका हो सकता है, ठीक है, अब lead code पे आप general मान के चलिए, इसका कोई exact figure नहीं है, क्योंकि हम lead code म में software engineer नहीं",
+    "start": 120.6,
+    "end": 180.88
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "है लेकिन 10 to the power 8 simple operations आप कर सकते हैं अपने program में generally 99% case में 10 to the power 8 simple operations आप कर सकते हैं इस चीज़ को करने के लिए हर language को अलग-अलग time लगता है आप कभी सुने होंगे कि C fast है C++ fast है Python slow है Java slow है हो सकता है C++ को यह करने में 1 second लगता हो 10 to the power 8 8 operation करने में, हो सकता है python को यह करने में 2 second लगता हो, हो सकता है javascript को यह करने में 3 second लगता हो, कोई फर्क नहीं पड़ता है, lead code आपको बोलता है, कि आप कोई भी language चुनिए, आप c++ चुनिए, python चुनिए, चुनिए जावास्क्रिप्ट चुनिए हम आपको उस हिसाब से टाइम दे देंगे अगर आपका जावास्क्रिप्ट तो आपको तीन सेकंड मिलेगा पाइथन में दो सी प्लस प्लस में एक लेकिन लेकिन नंबर ऑफ ऑपरेशन सेम रहता है किसी भी language के लिए तो लीट कोट आपको क्या बोलता है आप कोई भी प्रोग्राम लिखिए किसी भी तरीके से लिखिए मैक्सिमम आप टेंड टू थी पावर 8 सिंपल ऑपरेशन कर सकते हैं इसका क्या मतलब है कि अगर",
+    "start": 180.88,
+    "end": 241.02
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "आप ऐसा प्रोग्राम लिखते हैं, आप लिखते हैं print hello ठीक है, इसको lead code बोलता है कि यह एक simple operation है, एक ही काम हो रहा है, इसमें एक simple काम print हो रहा है, ऐसा ऐसा आप 10 to the power 8 print statement लिख सकते हैं, total मिलाके अगर आपको सारा print नहीं लिखना है, तो a is equal to 10 b is equal to 20 c is equal to 30 T और A is equal to B plus C, इसमें कितना statement हुआ, इसमें कितना simple operation हुआ, इसमें 1, 2, 3, 4, 5, यह मिला के हो गया 5, तो यह lead code पर चल जाएगा, लेकिन the moment कि आप 10 to the power 8 से ज़ादा simple operation करेंगे, तो आपको time arithmetic seed आएगा, general rule यह होता है, अब यह हम आपको क्यों समझाए, बताते हैं क्यों समझा का size लिखा होता है, for example, अगर आपको बोलता है कि आपको एक array",
+    "start": 241.02,
+    "end": 301.18
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "का question है, उसमें आपको लिखेगा, size of array वो आपको बता देता है कि क्या होगा, maximum क्या होगा, size of array वो आपको बोलता है कि maximum क्या होगा, कभी-कभी ये thousand होता है, कभी-कभी ये 1,00,000 होता है, मतलब 10 to the power 5 होता है, कभी- कभी ये 10 to the power 9 होता है किसी किसी case में 10 to the power 100 ये 9 से भी ज़्यादा हो सकता है किसी किसी case में ये number बस 20 होता है ऐसा क्यूं ऐसा इसलिए क्योंकि अभी हम आपको क्या बोले इस number को याद करके रखे 10 to the power 8 अब आपको हम बताते हैं for example आपको बोला है कि n का size 10 हो सकता है maximum मतलब आपका program जिस input पर run होगा उस input का size 10 हो सकता है maximum अब आप कितना complexity कर सकते हैं यही वो hint है जो हम बोल रहे थे न कि input देखके समझ में आ जाता है कि algorithm कौन सा लग सकता है अगर 10 to the power 10 है क्या आप इसमें order of n का कर सकते हैं order of n का क्या मतलब अभी बताएंगे, लेकिन अभी के लिए समझ लीजिए,",
+    "start": 301.18,
+    "end": 361.22
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "order of n का मतलब कि ये n है न, तो आपको 10 operations कर सकते हैं, आप op कर रहे हैं, अभी बताएंगे, बहुत अराम से बताएंगे, लेकिन अभी के लिए ये चीज, ये part समझने के लिए, अगर आप order of n का program लिख जो कि होता है three operations करेंगे worst case में अगर आप order of n square का program लिखेंगे तो आप ten square मतलब hundred operations करेंगे worst case में अगर आप order of n cube का program लिखेंगे तो आप ten to the power cube thousand operations करेंगे worst case में ठीक है अगर आप order of two to the power n करते हैं तो आप two to the power ten one zero two four operations करेंगे worst case में समझ",
+    "start": 361.32,
+    "end": 421.34
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "में आया है क्या मतलब होता है order of कहने का अब देखिए example n is equal to 10 दिया हुआ है पूरा DSA का खेल क्यों खेलते हैं हम लोग की time complexity कम से कम निकालना है हम लोग को ऐसा time complexity का program लिखना है जो की pass हो जाए अब देखिए n अगर 10 है क्या order of n का program लिख सकते हैं, हाँ, लिख सकते हैं, क्यूं, क्योंकि आप 10 कर रहे हैं, maximum कितना permitted है, 10 to the power 8, 10, 10 to the power 8 से कम है, yes, आप order of n लिख सकते हैं, क्या order of n square लिख सकते हैं, yes, 100 कम है, n cube लिख सकते हैं, thousand, हाँ, लिख सकते हैं, आप order of 2 to the power n लिख सकते हैं, हाँ, लिख सकते हैं 1024 होता है क्या आप order of n factorial लिख सकते हैं 10 factorial मतलब 10 into 9 into 8 into 7 1 तक इसका भी कुछ न कुछ value होता है पुर याद नहीं लेकिन 10 to the power 8 से तो कम होता है आपको समझ में आ गया क्या आप order",
+    "start": 421.34,
+    "end": 481.38
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "of n to the power n का program लिख सकते हैं तो ना भी गंदा program लिख सकते हैं क्या इसका value 10 to the power 10 मतलब ये नहीं लिख सकते क्यूं? क्योंकि 10 to the power 10 बड़ा है 10 to the power 8 से तो यहाँ पे आके आप रुख गए अगर आप इस तरीके का प्रोग्राम इस time complexity का प्रोग्राम लिखेंगे तो फसेगा इसके ऊपर आप कुछ भी लिखिये वो चल जाएगा समझ पारे हैं क्या बोल रहे हैं ये कब चल रहा था जब आपको input दिया हुआ है n is equal to 10 कहाँ है यहाँ पे n is equal to 10 में आप कितना गंदा program लिख सकते हैं यहाँ तक लिख सकते हैं ये वाला प्रोग्राम तो आप नहीं लिख सकते हैं, कितना भी आप कोशिश करिए, अगला एक्सांपल पर आते हैं, n आपको दिया हुआ है thousand, worst case में, क्या आप order of n का लिख सकते हैं, thousand, हाँ लिख सकते हैं, order of n square लिख सकते हैं, ये कितना हो जाएगा, thousand का square मतलब 10 to the power 6, अभ",
+    "start": 481.38,
+    "end": 543.12
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "10 to the power 8 से बड़ा है अगर n का input का size 1000 है उस program में तो आपको n cube से कम का program लिखना पड़ेगा समझ पा रहे हैं कि आप पहले सोचते दे कि क्यों ऐसा कर रहे हैं मतलब क्यों n log n चलता है और क्यों n square नहीं चलता है क्या आप order of n लिख सकते हैं 10 to the power 5 लिख सकते हैं क्या आप order of n square लिख सकते हैं यह हो जाएगा 10 to the power 10 नहीं लिख पाएंगे अब यह बड़ा है 10 to the power 8 से तो इसका कहने का मतलब कि n का value जब 10 to the power 5 हो तो आप n square भी नहीं लिख सकते हैं देखिए उपर आप लिख पा रहे थे लेकिन यहाँ आप n लिख सकते हैं एक और चीज़ आप कर सकते हैं n log n एक बहुत famous time complexity है n log n order of n log",
+    "start": 543.12,
+    "end": 603.2
+  },
+  {
+    "video_id": "oFwHwCkSoGw",
+    "text": "n लिख सकते हैं n log n कितना होगा 10 to the power 5 into 10 to the power 5 का log base 2 में यह कितना आता है 10 to the power 5 का log आ जाएगा 10 करेंगे मतलब 30 से तो कम होगा 30 से कम होगा 30 तक जाते हैं तो बहुत बढ़ जाता है इसकी value क्या होगी 30 into 10 to the power 5 is equal to 3 into 10 to the power 6 क्या ये number 10 to the power 8 से कम है हाँ कम है इसीलिए इसीलिए n log n चल जाता है और n square नहीं चलता है समझ में है क्यों n log n चलता है qn squared इसका सबका science है कोई जादू नहीं है कोई कहा नहीं है कि ऐसा चलेगा अब अगले example पर आई है n is equal to 10 to the power 8 है इस case में n चलेगा चल जाएगा 10 to the power 8 ही चल जाएगा n log n चलेगा कि नहीं नहीं चलेगा 10 to the power 8 into log of",
+    "start": 603.2,
+    "end": 655.22
+  }
+]

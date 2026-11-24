@@ -1,0 +1,18 @@
+[project]
+name = "week3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "day12",
+    "day13",
+    "day14",
+    "day14/venv",
+    "day",
+    "day15",
+    "day16",
+]
